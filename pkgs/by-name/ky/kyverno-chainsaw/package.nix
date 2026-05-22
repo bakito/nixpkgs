@@ -60,8 +60,8 @@ buildGoModule (finalAttrs: {
     '';
     mainProgram = "chainsaw";
     maintainers = with lib.maintainers; [
-      bakito
       LorenzBischof
+      bakito
     ];
   };
 })
