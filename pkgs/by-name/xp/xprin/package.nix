@@ -37,6 +37,7 @@ buildGoModule (finalAttrs: {
     license = lib.licenses.asl20;
     maintainers = with lib.maintainers; [
       LorenzBischof
+      xprin
     ];
     mainProgram = "xprin";
   };
